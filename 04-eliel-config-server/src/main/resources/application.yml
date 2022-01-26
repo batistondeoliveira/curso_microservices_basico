@@ -1,0 +1,3 @@
+spring:  application:    name: eliel-config-server  cloud:    config:      server:        git:          uri: https://github.com/batistondeoliveira/eliel-config-server          #username:           #password:          #default-label: main          search-paths:           - 'greeting-service*'
+server:
+  port: 8888
